@@ -60,6 +60,20 @@ li img {
   background-color: inherit;
   width: inherit;
   height: 60%;
+  display: flex;
+  align-items: center; 
+}
+
+.words div {
+  line-height: 1.5;
+  font-size: 1.5em;
+  padding: 1em;
+  text-align: justify;
+  color: #0F9D58;
+  word-spacing: 0.3em;
+}
+
+.words div p {
 }
 
 .inputArea {
@@ -68,4 +82,21 @@ li img {
   height: 20%;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: inherit;
+  height: 100%;
+  border: none;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  background-color: inherit;
+  padding: 1em;
+  outline: none;
+  font-size: 1.5em;
+  color: #0F9D58;
+  text-align: center; 
 }
